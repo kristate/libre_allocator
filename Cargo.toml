@@ -1,0 +1,15 @@
+[package]
+name = "libre_allocator"
+version = "0.1.0"
+authors = ["kristopher tate <kt@connectfree.co.jp>"]
+
+[lib]
+name = "libre_allocator"
+crate-type = ["rlib"]
+
+[dependencies]
+libc = { version = "0.2", default-features = false }
+
+[features]
+unsafe = []
+no-stdlib = []
